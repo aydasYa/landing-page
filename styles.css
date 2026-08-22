@@ -3,10 +3,39 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    font-family: Roboto;
 }
 
 #content-wrapper {
     max-width: 1100px;
     margin: auto;
     padding: 0 20px;
+    
+}
+
+
+/* Start: Navigation */
+nav, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    text-decoration: none;
+}
+
+#logo { font-size: 24px; }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+}
+
+a {
+    display: block; 
+    text-decoration: none; 
+    color: inherit;
 }
